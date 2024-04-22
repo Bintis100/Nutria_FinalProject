@@ -1,3 +1,4 @@
+#Location.py
 import json
 
 def decrypt_location(indices, text_file_path):
@@ -16,7 +17,7 @@ def decrypt_location(indices, text_file_path):
 
     # Open the text file and read lines based on encrypted indices
     with open(text_file_path, 'r') as text_file:
-        lines = text_file.readlines()  # Read all lines at once to avoid multiple I/O operations
+        lines = text_file.readlines()  # Read all lines at once to avoid multiple I/O operations(idk either, but it stops an error)
 
         # For each index in the encrypted data, find the corresponding line in the text file
         for index in indices:
