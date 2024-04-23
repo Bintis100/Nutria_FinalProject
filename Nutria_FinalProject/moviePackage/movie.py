@@ -1,7 +1,4 @@
 #movie.py
-#https://www.tutorialspoint.com/how-to-encrypt-and-decrypt-data-in-python
-
-#movie.py
 
 import json
 from cryptography.fernet import Fernet
@@ -30,6 +27,3 @@ f = Fernet(key)
 decrypted_data = f.decrypt(encrypted_data.encode())
 
 print('Decrypted data:', decrypted_data.decode())
-
-if __name__ == '__main__':
-    main()
