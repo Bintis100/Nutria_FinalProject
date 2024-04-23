@@ -18,4 +18,3 @@ image_path = os.path.join( json_file_path)
 image = Image.open(image_path)
 
 # Display the image
-image.show()
