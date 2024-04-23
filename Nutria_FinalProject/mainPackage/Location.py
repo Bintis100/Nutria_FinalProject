@@ -52,5 +52,3 @@ def main():
     decrypted_message = decrypt_location(encrypted_numbers, text_file_path)
     print("Decrypted Nutria entry:", decrypted_message)
 
-if __name__ == '__main__':
-    main()
